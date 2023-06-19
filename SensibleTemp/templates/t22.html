@@ -1,0 +1,32 @@
+<!-- 
+	22 ~ 27도 일때 옷차림 추천 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23~27temp</title>
+</head>
+<body style="text-align: center; margin-top: 50px;">
+    <div>
+        <a href="/">처음 페이지로 돌아가기</a>
+        <br>
+        {% if pred %}
+            <h3> 오늘 체감 온도는</h3> <h1>{{ pred }}도</h1>
+        {% endif %}
+        <br>
+        <h2> 오늘의 추천 옷차림은 반팔, 얇은 셔츠, 반바지, 면바지 입니다</h2>
+        <br>
+    </div>
+    <div>
+        <h5>추천 옷차림 카테고리 쇼핑하러 가기</h5>
+        <div>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EB%B0%98%ED%8C%94">반팔</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EC%97%AC%EB%A6%84+%08%EC%85%94%EC%B8%A0">얇은 셔츠</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EB%B0%98%EB%B0%94%EC%A7%80">반바지</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EB%A9%B4%EB%B0%94%EC%A7%80">면바지</a>
+        </div>
+    </div>
+</body>
+</html>

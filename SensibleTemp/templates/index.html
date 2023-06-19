@@ -1,0 +1,56 @@
+<!-- 
+    첫 페이지 
+        여름 버튼과 겨울 버튼 선택
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <style>
+        #main_btn_grp button{
+            padding: 10px;
+            color:rgb(118, 118, 202);
+            background-color: white;
+            border-color: rgb(118, 118, 202);
+            width: 150px;
+            height: 40px;
+            font-size: medium;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body style="text-align: center;">
+    <div style="margin-top: 20%;">
+        <h1>TEMP FOR OUTFIT</h1>
+        <h4>오늘 뭐 입지?</h4>
+        <br>
+        <br>
+        <br>
+        <h2>현재 계절을 선택해주세요</h2>
+        <h5>여름철 : 5월 ~ 9월 / 겨울철 : 10월 ~ 익년 4월</h5>
+    </div>
+    <br>
+    <br>
+    <div id="main_btn_grp">
+        <form action="/summer" method="GET">
+            <button type="submit">여름철</button>
+        </form>
+        <br>
+        <form action="/winter" method="GET">
+            <button type="submit">겨울철</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <iframe width="1000" height="700" src="https://lookerstudio.google.com/embed/reporting/22c3a854-cbe0-42b1-9624-58d4e46fccfd/page/pbJUD" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>

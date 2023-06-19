@@ -1,0 +1,32 @@
+<!-- 
+	-4 ~ 4도 일때 옷차림 추천 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-4~4temp</title>
+</head>
+<body style="text-align: center; margin-top: 50px;">
+    <div>
+        <a href="/">처음 페이지로 돌아가기</a>
+        <br>
+        {% if pred %}
+            <h3> 오늘 체감 온도는</h3> <h1>{{ pred }}도</h1>
+        {% endif %}
+        <br>
+        <h2> 오늘의 추천 옷차림은 패딩, 두꺼운 코트, 목도리, 기모제품 입니다</h2>
+        <br>
+    </div>
+    <div>
+        <h5>추천 옷차림 카테고리 쇼핑하러 가기</h5>
+        <div>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%ED%8C%A8%EB%94%A9">패딩</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EA%B2%A8%EC%9A%B8%EC%BD%94%ED%8A%B8">두꺼운 코트</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EB%AA%A9%EB%8F%84%EB%A6%AC">목도리</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EA%B8%B0%EB%AA%A8">기모제품</a>
+        </div>
+    </div>
+</body>
+</html>

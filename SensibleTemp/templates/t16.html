@@ -1,0 +1,32 @@
+<!-- 
+	16 ~ 19도 일때 옷차림 추천 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16~19temp</title>
+</head>
+<body style="text-align: center; margin-top: 50px;">
+    <div>
+        <a href="/">처음 페이지로 돌아가기</a>
+        <br>
+        {% if pred %}
+            <h3> 오늘 체감 온도는</h3> <h1>{{ pred }}도</h1>
+        {% endif %}
+        <br>
+        <h2>오늘의 추천 옷차림은 얇은 니트, 맨투맨, 가디건, 청바지 입니다</h2>
+        <br>
+    </div>
+    <div>
+        <h5>추천 옷차림 카테고리 쇼핑하러 가기</h5>
+        <div>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EC%96%87%EC%9D%80+%EB%8B%88%ED%8A%B8">얇은 니트</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EB%A7%A8%ED%88%AC%EB%A7%A8">맨투맨</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EA%B0%80%EB%94%94%EA%B1%B4">가디건</a>
+            <a href="https://www.musinsa.com/search/musinsa/integration?type=&q=%EC%B2%AD%EB%B0%94%EC%A7%80">청바지</a>
+        </div>
+    </div>
+</body>
+</html>
