@@ -4,8 +4,8 @@ import sys
 
 host = 'arjuna.db.elephantsql.com'
 user = 'silvzcal'
-password = 'zgPVPdBzmASs7_c6luaOkl6c3sXZdz39'
-database = 'silvzcal'
+password = '*****'
+database = '*****'
 
 def main():
     # postgresql 연결
