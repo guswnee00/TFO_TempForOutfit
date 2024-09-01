@@ -8,6 +8,7 @@
 - Python
 - Visual Studio Code
 - Google Colab
+- Looker Studio
 - Flask
 - Postgresql
 - Pandas
